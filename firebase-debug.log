@@ -1,0 +1,46 @@
+[debug] [2025-03-06T10:03:02.574Z] ----------------------------------------------------------------------
+[debug] [2025-03-06T10:03:02.577Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kaika\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-03-06T10:03:02.578Z] CLI Version:   13.32.0
+[debug] [2025-03-06T10:03:02.578Z] Platform:      win32
+[debug] [2025-03-06T10:03:02.578Z] Node Version:  v20.6.1
+[debug] [2025-03-06T10:03:02.578Z] Time:          Thu Mar 06 2025 18:03:02 GMT+0800 (台北標準時間)
+[debug] [2025-03-06T10:03:02.578Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-06T10:03:02.778Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-06T10:03:02.779Z] > authorizing via signed-in user (kaikai.yao@gmail.com)
+[debug] [2025-03-06T10:03:02.779Z] [iam] checking project spjh-bd52d for permissions ["firebase.projects.get"]
+[debug] [2025-03-06T10:03:02.780Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:02.780Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:02.781Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/spjh-bd52d:testIamPermissions [none]
+[debug] [2025-03-06T10:03:02.781Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/spjh-bd52d:testIamPermissions x-goog-quota-user=projects/spjh-bd52d
+[debug] [2025-03-06T10:03:02.781Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/spjh-bd52d:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-06T10:03:03.600Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/spjh-bd52d:testIamPermissions 200
+[debug] [2025-03-06T10:03:03.601Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/spjh-bd52d:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-06T10:03:03.601Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:03.601Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:03.601Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/spjh-bd52d [none]
+[debug] [2025-03-06T10:03:03.819Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/spjh-bd52d 200
+[debug] [2025-03-06T10:03:03.819Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/spjh-bd52d {"projectNumber":"225018375096","projectId":"spjh-bd52d","lifecycleState":"ACTIVE","name":"spjh","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-03-06T09:12:53.018591Z"}
+[info] 
+[info] === Serving from 'C:\Users\kaika\Documents\spjh113'...
+[info] 
+[debug] [2025-03-06T10:03:03.822Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:03.822Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:03.823Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/spjh-bd52d/sites 
+[debug] [2025-03-06T10:03:04.228Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/spjh-bd52d/sites 200
+[debug] [2025-03-06T10:03:04.228Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/spjh-bd52d/sites {"sites":[{"name":"projects/spjh-bd52d/sites/spjh-bd52d","defaultUrl":"https://spjh-bd52d.web.app","appId":"1:225018375096:web:9fcad43b21c8ae9f523d4d","type":"DEFAULT_SITE"}]}
+[debug] [2025-03-06T10:03:04.228Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:04.228Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:04.228Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/spjh-bd52d/webApps/1:225018375096:web:9fcad43b21c8ae9f523d4d/config [none]
+[debug] [2025-03-06T10:03:05.094Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/spjh-bd52d/webApps/1:225018375096:web:9fcad43b21c8ae9f523d4d/config 200
+[debug] [2025-03-06T10:03:05.094Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/spjh-bd52d/webApps/1:225018375096:web:9fcad43b21c8ae9f523d4d/config {"projectId":"spjh-bd52d","appId":"1:225018375096:web:9fcad43b21c8ae9f523d4d","storageBucket":"spjh-bd52d.firebasestorage.app","apiKey":"AIzaSyC8QbZRC7N2Q23eLx4n_gISzrjHeuUR5U8","authDomain":"spjh-bd52d.firebaseapp.com","messagingSenderId":"225018375096","measurementId":"G-5WBKTPQWY5"}
+[debug] [2025-03-06T10:03:05.099Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:05.099Z] Checked if tokens are valid: true, expires at: 1741256364825
+[debug] [2025-03-06T10:03:05.099Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/spjh-bd52d [none]
+[debug] [2025-03-06T10:03:05.363Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/spjh-bd52d 200
+[debug] [2025-03-06T10:03:05.363Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/spjh-bd52d {"projectId":"spjh-bd52d","projectNumber":"225018375096","displayName":"spjh","name":"projects/spjh-bd52d","resources":{"hostingSite":"spjh-bd52d"},"state":"ACTIVE","etag":"1_20f5ad8a-e162-4d9c-bca3-3c6efba5be8d"}
+[info] +  hosting[spjh-bd52d]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [06/Mar/2025:10:03:07 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [06/Mar/2025:10:03:07 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [06/Mar/2025:10:03:07 +0000] "GET /index.css HTTP/1.1" 200 - "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [06/Mar/2025:10:03:07 +0000] \"GET /index.css HTTP/1.1\" 200 - \"http://localhost:5002/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [06/Mar/2025:10:03:07 +0000] "GET /index.js HTTP/1.1" 200 - "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [06/Mar/2025:10:03:07 +0000] \"GET /index.js HTTP/1.1\" 200 - \"http://localhost:5002/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [06/Mar/2025:10:03:07 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [06/Mar/2025:10:03:07 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:5002/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\""}}
