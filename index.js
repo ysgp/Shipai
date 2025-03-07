@@ -132,7 +132,7 @@ const firebaseConfig = {
               
               setTimeout(() => {
                   submitButton.innerHTML = `
-                      <span>發布貼文</span>
+                      <span>送出</span>
                       <svg class="h-8 w-8 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
                       </svg>
@@ -150,7 +150,7 @@ const firebaseConfig = {
               `;
               setTimeout(() => {
                   submitButton.innerHTML = `
-                      <span>發布貼文</span>
+                      <span>送出</span>
                       <svg class="h-8 w-8 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
                       </svg>
@@ -190,7 +190,7 @@ const firebaseConfig = {
   
       async function updatePostCount() {
           const snapshot = await db.collection('posts').get();
-          postCount.textContent = `目前貼文數量：${snapshot.size}`;
+          postCount.textContent = `已投稿的數量：${snapshot.size}`;
       }
   
       window.addEventListener('load', updatePostCount);
